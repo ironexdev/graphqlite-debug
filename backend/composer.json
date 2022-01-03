@@ -1,0 +1,20 @@
+{
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "name": "ironexdev/graphql-debug",
+  "require": {
+    "php": "8.0.10",
+    "php-di/php-di": "^6.0",
+    "thecodingmachine/graphqlite": "5.0.1",
+    "nyholm/psr7": "^1.4",
+    "nyholm/psr7-server": "^1.0",
+    "guzzlehttp/guzzle": "^7.4",
+    "tuupola/cors-middleware": "^1.2",
+    "symfony/cache": "5.4.0"
+  },
+  "type": "project",
+  "description": ""
+}
